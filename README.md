@@ -92,4 +92,4 @@ Miss Annette Nellyet : https://www.linkedin.com/in/annette-nellyet/
 > Various feature engnnering techniques were applied such as:
 > * SOFA score: Calcualtion of SOFA (Sequential Organ Failure Assessment) scores by combining various features.
 > * Bins: Categorization of general medical indications and abnormal test results differently for men, women, and children and placing them into appopriate bins.
-Unfortunately, non of these feature engneering techniques produced bettter outcomes.
+> Unfortunately, non of these feature engneering techniques produced bettter outcomes.
