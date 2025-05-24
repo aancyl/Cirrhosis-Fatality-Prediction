@@ -23,28 +23,28 @@ Link to the UC Irvine Dataset for Cirrhosis Patient Survival Prediction : https:
 # Methodology
 ## 1. Research / Understanding the problem statement.
 
-**Objective:** To gain industry spesific insights and a deeper understanding of the effect and the causes of cirrhosis.
+* **Objective:** To gain industry spesific insights and a deeper understanding of the effect and the causes of cirrhosis.
 
 I have spent a significant amount of time researching cirrhosis, including its causes, adverse effects, and progression. This understanding has helped me gain deeper insights into the data and its relevance to the disease.
   
 ## 2. Explooratory Data Analysis.
 
-**Ojbective:** Explore the features of the dataset and understand how they relate to the target variable.
+* **Ojbective:** Explore the features of the dataset and understand how they relate to the target variable.
 
 Visualization techniques have been used to understand the impact of various indiviual features and the overall impact of the features combined with reference to the target variable. Performing this stage appropriately will provide useful knowledge for the further processes that will come into practice later.
 
 
 ## 3. Pre-Processing the Data.
 
-**Ojbective:** Clean the data impute missing data, remove outliers and imporove the predictive power of the model using esentail features. 
+* **Ojbective:** Clean the data impute missing data, remove outliers and imporove the predictive power of the model using esentail features. 
 
 Both the training and testing datasets have been preprocessed using consistent techniques to ensure data integrity and model reliability. For categorical variables, missing values were handled using a Simple Imputer with the most frequent value, followed by One-Hot Encoding for feature encoding. The target variable was encoded using a Label Encoder.
 
 For numerical features, missing values were imputed using an Iterative Imputer, and the data was standardized using a Robust Scaler to minimize the impact of outliers. Additionally, outliers were detected and removed using the Interquartile Range (IQR) method.
 
-## 5. Building a model to predict patient faitality.
+## 4. Building a model to predict patient faitality.
 
-**Ojbective:** Build baseline models.
+* **Ojbective:** Build baseline models.
 
 Principal Component Analysis (PCA) was applied for dimensionality reduction to capture the most important variance in the dataset while reducing feature complexity. To address class imbalance, the SMOTE-Tomek technique was used, combining oversampling and undersampling methods for better class distribution.
 
@@ -54,39 +54,28 @@ In the deep learning pipeline, PyTorch was used to build and train a feed forwar
 
 
 
-## 7. Model Optimization & Model Explainability
+## 5. Model Optimization & Model Explainability
 
-**Ojbective:** Optimize the models hyperparameters and perform model expainibilitiy techniques.  
+* **Ojbective:** Optimize the models hyperparameters and perform model expainibilitiy techniques.
+  
 Optuna was used for hyperparameter optimization to enhance model performance through efficient and automated tuning. To ensure model interpretability, both LIME (Local Interpretable Model-agnostic Explanations) and Integrated Gradients were applied. These techniques provided insights into how different features influenced the model’s predictions, contributing to a better understanding of the model’s decision-making process.
 
 # Requirements
 Python 3.x
 
-Jupyter Notebook
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-XGBoost
-
-Sklearn
-
-Scipy
-
-Pytorch
-
-TorchMetircs
-
-Optuna
-
-Lime
-
-Captum
-
-Numpy
+* Jupyter Notebook
+* Pandas
+* Matplotlib
+* Seaborn
+* XGBoost
+* Sklearn
+* Scipy
+* Pytorch
+* TorchMetircs
+* Optuna
+* Lime
+* Captum
+* Numpy
 
 # Installation
 ```
