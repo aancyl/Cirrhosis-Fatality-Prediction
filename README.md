@@ -84,3 +84,6 @@ pip install pandas matplotlib seaborn xgboost scikit-learn scipy torch torchvisi
 
 # Conclusion
 This project demonstrates the potential of machine learning in predicting patient survival outcomes, including death and liver transplantation. This project is implemented using 2 datasets one for testing and one to training the model. The best-performing model achieved an accuracy of 83% using deep learning and 74% using traditional machine learning, highlighting its promise as a support tool in clinical prognosis and patient management.
+
+# Special Thanks
+Miss Annette Nellyet : https://www.linkedin.com/in/annette-nellyet/
