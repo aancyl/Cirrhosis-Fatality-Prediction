@@ -27,7 +27,7 @@ Link to the UC Irvine Dataset for Cirrhosis Patient Survival Prediction : https:
 
 I have spent a significant amount of time researching cirrhosis, including its causes, adverse effects, and progression. This understanding has helped me gain deeper insights into the data and its relevance to the disease.
   
-## 2. Explooratory Data Analysis.
+## 2. Exploratory Data Analysis.
 
 * **Ojbective:** Explore the features of the dataset and understand how they relate to the target variable.
 
